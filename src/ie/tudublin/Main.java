@@ -25,6 +25,21 @@ public class Main
         mino = new Dog("Misty");  // This will compile!
         //topcat = new Dog("Tara"); // This wont compile!
 
+        Animal a = new Cat("a");
+        Animal b = new Cat("b");
+        
+        System.out.println(a);
+        System.out.println(b);
+
+        a = b;
+
+        a.setName("c");
+
+        System.out.println(a);
+        System.out.println(b);
+
+
+
 
 
 

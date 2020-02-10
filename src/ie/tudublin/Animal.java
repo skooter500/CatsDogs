@@ -28,4 +28,10 @@ public class Animal
     {
         System.out.println("I cant speak!");
     }
+
+    // This gets called automatically"
+    public String toString()
+    {
+        return getName();
+    }
 }
